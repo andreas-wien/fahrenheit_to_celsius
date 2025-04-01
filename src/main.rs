@@ -65,7 +65,7 @@ fn main() {
         unit = s
             .trim()
             .parse()
-            .expect("Supported units are either Fahrenheit, oder Celsius");
+            .expect("Supported units are either Fahrenheit, or Celsius");
     }
 
     // °C equals °F minus 32, divided by 9/5
